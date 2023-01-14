@@ -3,7 +3,13 @@
   background-color: #7cad2b;
 }
 
-.image-content {
-  width: 1200px;
+.img {
   height: 300px;
+}
+
+.posts {
+}
+
+.item {
+  margin-left: 20px;
 }
