@@ -1,15 +1,15 @@
 import styles from "./Post.module.css";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className={styles.item}>
       <img
         src="https://www.imagensempng.com.br/wp-content/uploads/2021/08/Icone-usuario-Png.png"
         alt="avatar"
       />
-      Post 1
+      {props.message}
       <div>
-        <span>Like</span>
+        <span>Like</span> {props.likesCount}
       </div>
     </div>
   );
