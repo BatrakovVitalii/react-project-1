@@ -1,9 +1,12 @@
-import styles from "./Header.module.css";
+import React from "react";
+import styles from "./News.module.css";
 
-const Music = () => {
+const News = (props) => {
   return (
-    Music
+    <div>
+      News
+    </div>
   );
 };
 
-export default Music;
+export default News;

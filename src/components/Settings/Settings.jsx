@@ -1,9 +1,12 @@
-import styles from "./Header.module.css";
+import React from "react";
+import style from './Settings.module.css';
 
-const Music = () => {
-  return (
-    Music
-  );
-};
+const Settings = (props) => {
+  return(
+    <div>
+      Dialogs
+    </div>
+  )
+}
 
-export default Music;
+export default Settings

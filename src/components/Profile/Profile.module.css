@@ -1,15 +1,4 @@
-.content {
-  grid-area: c;
-  background-color: #7cad2b;
-}
-
-.img {
-  height: 300px;
-}
-
-.posts {
-}
-
-.item {
-  margin-left: 20px;
+.img{
+    width: 100%;
+    height: 400px;
 }

@@ -1,11 +1,12 @@
-import styles from "./Header.module.css";
+import React from "react";
+import styles from "./Music.module.css";
 
-const Header = () => {
+const Music = (props) => {
   return (
-    <header className={styles.header}>
-      <img src="https://w7.pngwing.com/pngs/637/10/png-transparent-logo-leaf-green-leaf-leaf-logo-business.png" />
-    </header>
+    <div>
+      Music
+    </div>
   );
 };
 
-export default Header;
+export default Music;
